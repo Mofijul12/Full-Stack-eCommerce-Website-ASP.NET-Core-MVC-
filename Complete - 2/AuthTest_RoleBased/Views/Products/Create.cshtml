@@ -1,0 +1,64 @@
+﻿@model AuthTest_RoleBased.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="text-center text-primary"> Create Product</h1>
+
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="card shadow-lg">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0"><i class="bi bi-info-circle-fill"></i> Product Details</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Name" class="control-label"><i class="bi bi-box"></i> Product Name</label>
+                        <input asp-for="Name" class="form-control" placeholder="Enter product name" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Unit" class="control-label"><i class="bi bi-info-circle"></i> Details</label>
+                        <input asp-for="Unit" class="form-control" placeholder="Enter product details" />
+                        <span asp-validation-for="Unit" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Price" class="control-label"><i class="bi bi-currency-exchange"></i> ৳ Price</label>
+                        <input asp-for="Price" class="form-control" type="number" step="0.01" placeholder="Enter price" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Quantity" class="control-label"><i class="bi bi-123"></i> Quantity</label>
+                        <input asp-for="Quantity" class="form-control" type="number" placeholder="Enter quantity" />
+                        <span asp-validation-for="Quantity" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="control-label"><i class="bi bi-image"></i> Product Photo</label>
+                        <input type="file" name="imageFile" class="form-control" />
+                    </div>
+
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-success btn-lg">
+                            <i class="bi bi-check-circle-fill"></i> Create Product
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center mt-3">
+    <a asp-action="Index" class="btn btn-outline-secondary btn-sm">
+        <i class="bi bi-arrow-left-circle"></i> Back to Product List
+    </a>
+</div>

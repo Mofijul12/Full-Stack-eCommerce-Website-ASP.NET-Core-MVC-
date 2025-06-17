@@ -1,0 +1,42 @@
+﻿@model List<AuthTest_RoleBased.Data.ApplicationUser>
+@{
+    ViewBag.Title = "All Users";
+    var roles = ViewBag.Roles as List<string>;
+    var userRolesDict = ViewBag.UserRolesDict as Dictionary<string, IList<string>>;
+}
+
+<h2>All Users</h2>
+
+@if (ViewBag.msg != null)
+{
+    <div class="alert alert-info">@ViewBag.msg</div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>UserName</th>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>
+                    @string.Join(", ", userRolesDict[user.Id])
+                </td>
+                <td>
+                    <form asp-action="DeleteUser" method="post" style="display:inline">
+                        <input type="hidden" name="userId" value="@user.Id" />
+                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?')">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

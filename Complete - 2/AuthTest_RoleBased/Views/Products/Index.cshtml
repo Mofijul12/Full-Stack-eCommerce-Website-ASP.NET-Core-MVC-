@@ -1,0 +1,141 @@
+﻿@model IEnumerable<AuthTest_RoleBased.Models.Product>
+
+@{
+    var products = ViewData["Products"] as IEnumerable<Product>;
+    var currentPage = (int?)ViewData["CurrentPage"] ?? 1;
+    var totalPages = (int?)ViewData["TotalPages"] ?? 1;
+}
+
+<h1 class="text-center text-primary mb-4">Product List</h1>
+
+<div class="row mb-4 justify-content-between">
+    <div class="col-md-6 mb-2">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search by name..." onkeyup="filterProducts()" />
+    </div>
+    <div class="col-md-4 text-end">
+        <a asp-action="Create" class="btn btn-success">Create New Product</a>
+    </div>
+</div>
+
+<!-- Table layout for desktop -->
+<div class="table-responsive d-none d-md-block" id="desktopView">
+    <table class="table table-bordered table-hover table-striped" id="productTable">
+        <thead class="thead-light">
+            <tr>
+                <th class="text-center">Photo</th>
+                <th>Name</th>
+                <th>Details</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in products)
+            {
+                <tr data-name="@item.Name">
+                    <td class="text-center">
+                        @if (!string.IsNullOrEmpty(item.Photo))
+                        {
+                            <img src="@item.Photo" width="80" height="80" class="img-fluid rounded" style="object-fit:cover;" />
+                        }
+                        else
+                        {
+                            <span class="text-muted">No Image</span>
+                        }
+                    </td>
+                    <td>@item.Name</td>
+                    <td>@item.Unit</td>
+                    <td>@item.Price</td>
+                    <td>@item.Quantity</td>
+                    <td class="text-center">
+                        <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-warning btn-sm">Edit</a>
+                        <form asp-action="Delete" asp-route-id="@item.ProductId" method="post" class="d-inline" onsubmit="return showConfirm();">
+                            <input type="hidden" name="id" value="@item.ProductId" />
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<div class="d-block d-md-none" id="mobileView">
+    @foreach (var item in products)
+    {
+        <div class="card mb-3 shadow-sm product-card" data-name="@item.Name">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                    @if (!string.IsNullOrEmpty(item.Photo))
+                    {
+                        <img src="@item.Photo" width="80" height="80" class="rounded me-3" style="object-fit:cover;" />
+                    }
+                    else
+                    {
+                        <div class="text-muted">No Image</div>
+                    }
+                    <div>
+                        <h5 class="card-title mb-1">@item.Name</h5>
+                        <p class="card-subtitle text-muted">@item.Unit</p>
+                    </div>
+                </div>
+                <p><strong>Price:</strong> @item.Price</p>
+                <p><strong>Quantity:</strong> @item.Quantity</p>
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-warning btn-sm">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@item.ProductId" method="post" onsubmit="return showConfirm();">
+                        <input type="hidden" name="id" value="@item.ProductId" />
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+<nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center flex-wrap">
+        @if (currentPage > 1)
+        {
+            <li class="page-item"><a class="page-link" asp-action="Index" asp-route-page="1">First</a></li>
+            <li class="page-item"><a class="page-link" asp-action="Index" asp-route-page="@((currentPage - 1))">Previous</a></li>
+        }
+
+        @for (var i = 1; i <= totalPages; i++)
+        {
+            <li class="page-item @(i == currentPage ? "active" : "")">
+                <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+            </li>
+        }
+
+        @if (currentPage < totalPages)
+        {
+            <li class="page-item"><a class="page-link" asp-action="Index" asp-route-page="@((currentPage + 1))">Next</a></li>
+            <li class="page-item"><a class="page-link" asp-action="Index" asp-route-page="@totalPages">Last</a></li>
+        }
+    </ul>
+</nav>
+
+<script>
+    function showConfirm() {
+        return confirm("Are you sure you want to delete this product?");
+    }
+
+    function filterProducts() {
+        var search = document.getElementById("searchInput").value.toLowerCase();
+
+
+        document.querySelectorAll("#productTable tbody tr").forEach(function (row) {
+            const name = row.getAttribute("data-name").toLowerCase();
+            row.style.display = name.includes(search) ? "" : "none";
+        });
+
+        document.querySelectorAll(".product-card").forEach(function (card) {
+            const name = card.getAttribute("data-name").toLowerCase();
+            card.style.display = name.includes(search) ? "" : "none";
+        });
+    }
+</script>

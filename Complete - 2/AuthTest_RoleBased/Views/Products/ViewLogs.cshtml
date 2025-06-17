@@ -1,0 +1,38 @@
+﻿@model IEnumerable<AuthTest_RoleBased.Models.ProductLog>
+
+<h2 class="text-center my-4">Product Logs</h2>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Action</th>
+                <th scope="col">User</th>
+                <th scope="col">Details</th>
+                <th scope="col">Action Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var log in Model)
+            {
+                <tr>
+                    <td>@log.Action</td>
+                    <td>@log.User</td>
+                    <td>
+                        @if (log.Action == "Updated")
+                        {
+                            <div class="text-danger">
+                                <strong>Old Details:</strong> @log.Details
+                            </div>
+                        }
+                        else
+                        {
+                            <span>@log.Details</span>
+                        }
+                    </td>
+                    <td>@log.ActionDate.ToString("g")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,521 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\models\\dbmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\models\\dbmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\controllers\\shoppingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\controllers\\shoppingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\shopping\\showcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\shopping\\showcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\shopping\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\shopping\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\shopping\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\shopping\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\shopping\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\shopping\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\shopping\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\shopping\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\shopping\\confirmorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\shopping\\confirmorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\role\\userorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\role\\userorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\role\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\role\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\role\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\role\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\role\\alluser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\role\\alluser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\products\\viewlogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\products\\viewlogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\products\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\products\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\models\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\models\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|c:\\users\\homepc\\desktop\\ronypanjabi\\complete - 2 - copy\\complete - 2\\authtest_rolebased\\models\\viewmodels\\showcartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AF93CF-AA60-44D4-8CD0-FCEA7C19C31E}|AuthTest_RoleBased\\AuthTest_RoleBased.csproj|solutionrelative:authtest_rolebased\\models\\viewmodels\\showcartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\appsettings.json",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\appsettings.json",
+              "RelativeToolTip": "AuthTest_RoleBased\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T05:27:07.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShoppingController.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Controllers\\ShoppingController.cs",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Controllers\\ShoppingController.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Controllers\\ShoppingController.cs",
+              "RelativeToolTip": "AuthTest_RoleBased\\Controllers\\ShoppingController.cs",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:25:50.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "AuthTest_RoleBased\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:23:48.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShowCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\ShowCart.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Shopping\\ShowCart.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\ShowCart.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Shopping\\ShowCart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:23:07.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Shopping\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\OrderDetails.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Shopping\\OrderDetails.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:23:02.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Shopping\\MyOrders.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\MyOrders.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Shopping\\MyOrders.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:22:56.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\Index.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Shopping\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\Index.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Shopping\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:22:26.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Shopping\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\Edit.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Shopping\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:22:20.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConfirmOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\ConfirmOrder.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Shopping\\ConfirmOrder.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shopping\\ConfirmOrder.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Shopping\\ConfirmOrder.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:22:17.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:22:09.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:20:35.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Role\\UserOrders.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Role\\UserOrders.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Role\\UserOrders.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Role\\UserOrders.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:20:24.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Role\\UserList.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Role\\UserList.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Role\\UserList.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Role\\UserList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:20:20.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Role\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Role\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:20:08.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AssignRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Role\\AssignRole.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Role\\AssignRole.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Role\\AssignRole.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Role\\AssignRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:20:06.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AllUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Role\\AllUser.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Role\\AllUser.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Role\\AllUser.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Role\\AllUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:19:59.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ViewLogs.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\ViewLogs.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Products\\ViewLogs.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\ViewLogs.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Products\\ViewLogs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:19:50.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Products\\ProductList.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\ProductList.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Products\\ProductList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:19:48.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:19:21.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:19:15.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:19:12.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Program.cs",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Program.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Program.cs",
+              "RelativeToolTip": "AuthTest_RoleBased\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:02:21.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Models\\ViewModels\\EditUserViewModel.cs",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Models\\ViewModels\\EditUserViewModel.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Models\\ViewModels\\EditUserViewModel.cs",
+              "RelativeToolTip": "AuthTest_RoleBased\\Models\\ViewModels\\EditUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:02:10.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ShowCartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Models\\ViewModels\\ShowCartViewModel.cs",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Models\\ViewModels\\ShowCartViewModel.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Models\\ViewModels\\ShowCartViewModel.cs",
+              "RelativeToolTip": "AuthTest_RoleBased\\Models\\ViewModels\\ShowCartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:02:07.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbModels.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Models\\DbModels.cs",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Models\\DbModels.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Models\\DbModels.cs",
+              "RelativeToolTip": "AuthTest_RoleBased\\Models\\DbModels.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:01:48.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "AuthTest_RoleBased\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T07:01:41.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AuthTest_RoleBased\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:01:11.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "AuthTest_RoleBased\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:01:08.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "AuthTest_RoleBased\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T06:59:07.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AuthTest_RoleBased\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Desktop\\RonyPanjabi\\Complete - 2 - Copy\\Complete - 2\\AuthTest_RoleBased\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AuthTest_RoleBased\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T06:59:01.22Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

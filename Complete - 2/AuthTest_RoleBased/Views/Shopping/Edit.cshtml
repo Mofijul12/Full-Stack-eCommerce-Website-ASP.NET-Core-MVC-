@@ -1,0 +1,43 @@
+﻿@model AuthTest_RoleBased.Models.ViewModels.EditUserViewModel
+
+<h2 class="mb-4"><i class="bi bi-person-lines-fill text-primary"></i> Edit Your Profile</h2>
+
+<form asp-action="Edit" method="post" class="shadow p-4 rounded bg-light">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">
+            <i class="bi bi-person-fill"></i> Name
+        </label>
+        <input asp-for="Name" class="form-control" placeholder="Enter your full name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">
+            <i class="bi bi-envelope-fill"></i> Email
+        </label>
+        <input asp-for="Email" class="form-control" placeholder="Enter your email address" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="CellPhone" class="form-label">
+            <i class="bi bi-phone-fill"></i> Cell Phone
+        </label>
+        <input asp-for="CellPhone" class="form-control" placeholder="Enter your phone number" />
+        <span asp-validation-for="CellPhone" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Country" class="form-label">
+            <i class="bi bi-geo-alt-fill"></i> Delivery Address
+        </label>
+        <input asp-for="Country" class="form-control" placeholder="Enter your country" />
+        <span asp-validation-for="Country" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-2">
+        <i class="bi bi-save-fill"></i> Save Changes
+    </button>
+</form>

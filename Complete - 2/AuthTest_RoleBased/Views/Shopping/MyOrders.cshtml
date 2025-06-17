@@ -1,0 +1,78 @@
+﻿@model IEnumerable<AuthTest_RoleBased.Models.Order>
+
+@{
+    ViewData["Title"] = "My Orders";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4"><i class="bi bi-cart-check-fill text-primary"></i> @ViewData["Title"]</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info" role="alert">
+            <i class="bi bi-info-circle-fill"></i> You have no orders yet.
+        </div>
+    }
+    else
+    {
+        <h3 class="alert alert-success d-flex align-items-center" role="alert">
+            <i class="bi bi-check-circle-fill me-2"></i>
+            ওর্ডার করার জন্য আপনাকে ধন্যবাদ। কিছুক্ষনের মধ্যে আমাদের প্রতিনিধি আপনাকে কল করবে।
+        </h3>
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Order ID</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Items</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Delivery Info</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.OrderId</td>
+                            <td>@order.OrderDate.ToString("dd MMM yyyy")</td>
+                            <td>
+                                <ul class="mb-0 ps-3">
+                                    @foreach (var item in order.OrderItems)
+                                    {
+                                        <li>
+                                            <strong>@item.Product.Name</strong><br />
+                                            Qty: @item.Quantity, Price: @item.Price.ToString("C", new System.Globalization.CultureInfo("bn-BD"))
+                                        </li>
+                                    }
+                                </ul>
+                            </td>
+                            <td>
+                                <strong class="text-success">
+                                    @order.OrderItems.Sum(i => i.Quantity * i.Price).ToString("C",new System.Globalization.CultureInfo("bn-BD"))
+                                </strong>
+                            </td>
+                            <td>
+                                <div>
+                                    <i class="bi bi-geo-alt-fill text-danger"></i> <strong>D.Address:</strong> @order.User.Country<br />
+                                    <i class="bi bi-telephone-fill text-primary"></i> <strong>Phone:</strong> @order.User.CellPhone
+                                </div>
+                            </td>
+                            <td>
+                                <span class="badge rounded-pill
+                                    @(order.Status == "Pending" ? "bg-warning text-dark" :
+                                      order.Status == "Shipped" ? "bg-info text-dark" :
+                                      order.Status == "Delivered" ? "bg-success text-light" :
+                                      order.Status == "Cancelled" ? "bg-danger text-light" :
+                                      "bg-secondary text-light")">
+                                    @order.Status
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

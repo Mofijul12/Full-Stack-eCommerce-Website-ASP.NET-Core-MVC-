@@ -1,0 +1,222 @@
+﻿@model AuthTest_RoleBased.Models.ViewModels.ShowCartViewModel
+
+@{
+    ViewData["Title"] = "ShowCart";
+    double subTotal = 0;
+    double total = 0;
+}
+
+<div class="container my-5">
+    <div>
+        <h2 class="display-4 text-center mb-4">Order Details</h2>
+    </div>
+
+    <div>
+        @if (Model.Products != null && Model.Products.Any())
+        {
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered table-sm">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Unit</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total Price</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Products)
+                        {
+                            <tr>
+                                <td><img src="@item.Photo" width="60" class="img-thumbnail" /></td>
+                                <td>@Html.DisplayFor(x => item.Name)</td>
+                                <td>@Html.DisplayFor(x => item.Unit)</td>
+                                <td>@Html.DisplayFor(x => item.Price)</td>
+                                <td>@Html.DisplayFor(x => item.Quantity)</td>
+                                <td>
+                                    @{
+                                        subTotal = item.Quantity * item.Price;
+                                        total += subTotal;
+                                    }
+                                    @subTotal
+                                </td>
+                                <td>
+                                    <a asp-action="RemoveFromCart" asp-route-id="@item.ProductId" asp-controller="Shopping" class="btn btn-danger btn-sm">
+                                        <i class="fa fa-trash"></i> Remove
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" class="fw-bold text-right">Total Price</td>
+                            <td></td>
+                            <td colspan="2" class="fw-bold text-success">@total</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="text-danger">Your cart is empty!</h4>
+                    <p>Start shopping to add products to your cart.</p>
+                    <a asp-action="Index" asp-controller="Shopping" class="btn btn-primary btn-lg">Go to Shop</a>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="row d-flex">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-sm">
+                <thead>
+                    <tr>
+                        <th>Delivery Address Details</th>
+                        <th>Contact Number</th>
+                        <th>Edit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Country</td>
+                        <td>@Model.CellPhone</td>
+                        <td><a asp-controller="Shopping" asp-action="Edit" class="btn btn-warning btn-sm">Edit Profile</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="alert alert-info d-flex align-items-center flex-column flex-md-row text-center text-md-start" role="alert">
+        <i class="bi bi-truck me-2 fs-4 mb-2 mb-md-0"></i>
+        <p class="mb-0">
+            <strong>ডেলিভারী চার্জ:</strong>
+            ঢাকার মধ্যে <span class="text-success">ক্যাশ অন ডেলিভারি</span> ৮০৳,
+            ঢাকার বাহিরে <span class="text-warning">ক্যাশ অন ডেলিভারি</span> ১৫০৳
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col-12 d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <a asp-action="Index" asp-controller="Shopping" class="btn btn-secondary btn-sm mb-2 mb-md-0">Continue Shopping</a>
+            <div>
+                @if (total == 0)
+                {
+                    <button disabled class="btn btn-success btn-sm" style="cursor: not-allowed;">CheckOut</button>
+                }
+                else
+                {
+                    <a asp-action="CheckOut" asp-controller="Shopping" class="btn btn-success btn-sm">Confirm Order</a>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .container {
+        max-width: 1200px;
+    }
+
+    .table th, .table td {
+        vertical-align: middle;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #f5f5f5;
+    }
+
+    .thead-dark th {
+        background-color: #343a40;
+        color: #fff;
+    }
+
+    .btn-sm {
+        font-size: 0.875rem;
+    }
+
+    .btn-lg {
+        padding: 0.75rem 1.25rem;
+        font-size: 1.25rem;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+    .fw-bold {
+        font-weight: bold;
+    }
+
+    .text-success {
+        color: #28a745 !important;
+    }
+
+    .text-danger {
+        color: #dc3545 !important;
+    }
+
+    .row {
+        margin-top: 20px;
+    }
+
+    .p-4 {
+        padding: 2rem !important;
+    }
+
+    .shadow-sm {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    }
+
+    .rounded {
+        border-radius: 8px;
+    }
+
+    @@media (max-width: 768px) {
+        .display-4
+
+    {
+        font-size: 1.8rem;
+    }
+
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .alert {
+        font-size: 0.9rem;
+    }
+
+    .table td img {
+        width: 40px;
+    }
+
+    .btn-sm {
+        font-size: 0.75rem;
+    }
+
+    .table th, .table td {
+        font-size: 0.85rem;
+    }
+
+    }
+</style>

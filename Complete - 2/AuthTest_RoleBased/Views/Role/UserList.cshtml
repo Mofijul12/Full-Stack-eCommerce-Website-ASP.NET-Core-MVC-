@@ -1,0 +1,35 @@
+﻿@model IEnumerable<AuthTest_RoleBased.Data.ApplicationUser>
+
+@{
+    ViewData["Title"] = "Users with Orders";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">User Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col" class="text-center">Orders</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>@user.UserName</td>
+                        <td>@user.Email</td>
+                        <td class="text-center">
+                            <a href="@Url.Action("UserOrders", "Role", new { userId = user.Id })" class="btn btn-sm btn-outline-primary">
+                                View Orders
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

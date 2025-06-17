@@ -1,0 +1,219 @@
+﻿@model IEnumerable<AuthTest_RoleBased.Models.Product>
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor _httpContextAccessor;
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/images/Banner/shopping-concept-close-up-portrait-young-beautiful-attractive-redhair-girl-smiling-looking-camera.jpg" class="d-block w-100" style="height: 300px; object-fit: contain;" alt="Banner Image 1">
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/Banner/covid-pandemic-lifestyle-concept-girl-wearing-medical-mask-shopping-malls-holding-paper-ba.jpg" class="d-block w-100" style="height: 300px; object-fit: cover;" alt="Banner Image 2">
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/Banner/attractive-asian-woman-showing-smartphone-app-shopping-bags-buying-online-via-application-standi.jpg" class="d-block w-100" style="height: 300px; object-fit: cover;" alt="Banner Image 3">
+        </div>
+    </div>
+</div>
+
+
+<div class="announcement-banner">
+    <div class="scrolling-text">
+        এস আলম গার্মেন্টস – রনি পাঞ্জাবী একটি বিশ্বস্ত আধুনিক কাস্টমাইজ পোশাক তৈরির প্রতিষ্ঠান। এই প্রতিষ্ঠানটি দক্ষতার সাথে আধুনিক কাটিংসহ পাঞ্জাবী, সেরোয়ানি, ট্রাউজার প্রস্তুতকারক এবং পাইকারী বিক্রেতা হিসেবে পরিচিত।
+
+        আমরা মানসম্পন্ন কাপড়, নিখুঁত কাটিং এবং দর্জির কারুকাজের মাধ্যমে গ্রাহকের চাহিদা পূরণে সর্বদা সচেষ্ট। আপনার যেকোনো উৎসব, অনুষ্ঠান কিংবা সাধারণ ব্যবহারের জন্য আমাদের তৈরি পোশাক আপনাকে দেবে আলাদা একটি অভিজাত অভিজ্ঞতা।
+    </div>
+</div>
+
+
+<div class="container my-5">
+    <!-- Temp Message -->
+    <div class="row mb-3">
+        <div class="col-12">
+            @if (TempData["msg"] != null)
+            {
+                <div class="alert alert-info text-center">@TempData["msg"]</div>
+            }
+        </div>
+    </div>
+
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <input type="text" id="productSearch" class="form-control" placeholder="Search products..." />
+        </div>
+    </div>
+
+    
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="productGrid">
+        @foreach (var item in Model)
+        {
+            <div class="col product-card">
+                <div class="card shadow-sm">
+                    <img src="@item.Photo" class="card-img-top" alt="@item.Name" />
+                    <div class="card-body">
+                        <h5 class="card-title">@Html.DisplayFor(x => item.Name)</h5>
+                        <p class="card-text">@Html.DisplayFor(x => item.Unit)</p>
+                        <p class="card-text text-success">@Html.DisplayFor(x => item.Price)</p>
+
+                        <form asp-action="AddToCart" asp-controller="Shopping" method="post" class="d-flex justify-content-between align-items-center">
+                            <input type="hidden" name="pId" value="@item.ProductId" />
+                            <input type="number" name="qty" value="1" min="1" max="500" class="form-control form-control-sm" style="width: 80px;" />
+                            <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+<nav aria-label="Page navigation" class="mt-4">
+    <ul class="pagination justify-content-center">
+        @if ((int)ViewBag.CurrentPage > 1)
+        {
+            <li class="page-item">
+                <a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage - 1)">Previous</a>
+            </li>
+        }
+
+        @for (int i = 1; i <= (int)ViewBag.TotalPages; i++)
+        {
+            <li class="page-item @(i == (int)ViewBag.CurrentPage ? "active" : "")">
+                <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+            </li>
+        }
+
+        @if ((int)ViewBag.CurrentPage < (int)ViewBag.TotalPages)
+        {
+            <li class="page-item">
+                <a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage + 1)">Next</a>
+            </li>
+        }
+    </ul>
+</nav>
+
+
+<style>
+    body {
+        background-color: aliceblue;
+    }
+
+    .carousel-inner img {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: black;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .card {
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .btn-sm {
+        padding: 0.25rem 0.5rem;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    .alert {
+        border-radius: 8px;
+    }
+
+    .row-cols-md-3 .col {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-success {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .pagination .page-item.active .page-link {
+        background-color: purple;
+        border-color: #28a745;
+    }
+
+    .announcement-banner {
+        overflow: hidden;
+        white-space: nowrap;
+        background: #0d6efd;
+        color: white;
+        padding: 10px 0;
+        position: relative;
+        font-size: 16px;
+        font-family: 'Bangla', sans-serif;
+    }
+
+    .scrolling-text {
+        display: inline-block;
+        padding-left: 100%;
+        animation: scroll-left 60s linear infinite;
+    }
+
+    @@keyframes scroll-left {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+</style>
+
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $("#productSearch").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $(".product-card").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+
+            $('.carousel').carousel({
+                interval: 3000
+            });
+
+            $(".card").hover(function () {
+                $(this).css("transform", "scale(1.05)");
+            }, function () {
+                $(this).css("transform", "scale(1)");
+            });
+        });
+    </script>
+}
