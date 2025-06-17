@@ -1,5 +1,11 @@
 Full-Stack eCommerce Website (ASP.NET Core MVC)
 A complete eCommerce web application developed using ASP.NET Core MVC, designed with role-based authentication and authorization to securely manage users, products, and orders. The platform supports both customer and admin functionalities, offering a seamless and secure shopping experience.
+Live Link: http://ronypanjabi-001-site1.qtempurl.com/
+Admin:
+username:mi6381176@gmail.com
+password:Asdf1234@
+
+Github Link:https://github.com/Mofijul12/Full-Stack-eCommerce-Website-ASP.NET-Core-MVC
 
 Key Features:
 
